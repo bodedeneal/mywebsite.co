@@ -6,14 +6,6 @@ document.addEventListener("DOMContentLoaded", function() {
     document.body.style.fontWeight = "bold"; // Make the text bold
     document.body.style.textAlign = "center"; // Center the text
 
-    // Create and append the first div with videos
-    var videoDiv = document.createElement('div');
-    videoDiv.style.display = "flex";
-    videoDiv.style.justifyContent = "center"; // Center the images and video
-    videoDiv.style.margin = "10px 0"; // Add some margin between the divs
-    
-    document.body.appendChild(videoDiv);
-
     // Create and append the second div with images
     var imageDiv = document.createElement('div');
     imageDiv.style.display = "flex";
