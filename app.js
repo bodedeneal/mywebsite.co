@@ -19,13 +19,6 @@ document.addEventListener("DOMContentLoaded", function() {
     img1.alt = 'Image 1508';
     imageDiv.appendChild(img1);
 
-    var img2 = document.createElement('img');
-    img2.src = 'IMG_1509.jpeg';
-    img2.width = 320;
-    img2.height = 320;
-    img2.alt = 'Image 1509';
-    imageDiv.appendChild(img2);
-
     document.body.appendChild(imageDiv);
 
     // Append the rest of the content
