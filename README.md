@@ -1,1 +1,1 @@
-bodedeneal.github.io/mywebsite.com
+https://bodedeneal.github.io/mywebsite.com
