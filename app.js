@@ -6,6 +6,10 @@ document.addEventListener("DOMContentLoaded", function() {
     document.body.style.fontWeight = "bold"; // Make the text bold
     document.body.style.textAlign = "center"; // Center the text
 
+    var h1 = document.createElement('h1');
+    h1.textContent = "Welcome To My Webstie";
+    document.body.appendChild(h1);
+    
     // Create and append the second div with images
     var imageDiv = document.createElement('div');
     imageDiv.style.display = "flex";
