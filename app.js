@@ -6,32 +6,6 @@ document.addEventListener("DOMContentLoaded", function() {
     document.body.style.fontWeight = "bold"; // Make the text bold
     document.body.style.textAlign = "center"; // Center the text
 
-    // Create and append the first div with videos
-    var videoDiv = document.createElement('div');
-    videoDiv.style.display = "flex";
-    videoDiv.style.justifyContent = "center"; // Center the images and video
-    videoDiv.style.margin = "10px 0"; // Add some margin between the divs
-
-    var video1 = document.createElement('video');
-    video1.width = 320;
-    video1.height = 240;
-    video1.controls = true;
-    var source1 = document.createElement('source');
-    source1.src = 'path/to/your-video.mp4';
-    source1.type = 'video/mp4';
-    video1.appendChild(source1);
-    videoDiv.appendChild(video1);
-
-    var video2 = document.createElement('video');
-    video2.width = 320;
-    video2.height = 240;
-    video2.controls = true;
-    var source2 = document.createElement('source');
-    source2.src = 'path/to/your-video.mp4';
-    source2.type = 'video/mp4';
-    video2.appendChild(source2);
-    videoDiv.appendChild(video2);
-
     document.body.appendChild(videoDiv);
 
     // Create and append the second div with images
