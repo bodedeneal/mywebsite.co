@@ -26,9 +26,9 @@ document.addEventListener("DOMContentLoaded", function() {
     document.body.appendChild(imageDiv);
 
     // Append the rest of the content
-    var h1 = document.createElement('h1');
-    h1.textContent = "Hey, I'm Bode DeNeal";
-    document.body.appendChild(h1);
+    var h2 = document.createElement('h2');
+    h2.textContent = "Hey, I'm Bode DeNeal";
+    document.body.appendChild(h2);
 
     var h2About = document.createElement('h2');
     h2About.textContent = "About me";
