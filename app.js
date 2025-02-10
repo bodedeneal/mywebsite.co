@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Apply styles to the body
     document.body.style.backgroundColor = "lightblue"; // Neon black background
-    document.body.style.color = "#000000"; // Neon green text
+    document.body.style.color = "black"; // Neon green text
     document.body.style.fontFamily = "'Arial', sans-serif"; // Change this to your desired font
     document.body.style.fontWeight = "bold"; // Make the text bold
     document.body.style.textAlign = "center"; // Center the text
