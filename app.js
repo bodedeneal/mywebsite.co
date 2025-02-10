@@ -49,4 +49,6 @@ document.addEventListener("DOMContentLoaded", function() {
     var pProjects = document.createElement('p');
     pProjects.textContent = "For smaller projects, I only charge $15 and for larger scale projects it can >$50.";
     document.body.appendChild(pProjects);
+
+    console.log(Math.floor(Math.random() * 100));
 });
