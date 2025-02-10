@@ -47,6 +47,6 @@ document.addEventListener("DOMContentLoaded", function() {
     document.body.appendChild(pWorking);
 
     var pProjects = document.createElement('p');
-    pProjects.textContent = `For smaller projects, I only charge $15 and for larger scale projects it can $${Math.floor(Math.random() * 100000)}.`;
+    pProjects.textContent = `For smaller projects, I only charge $15 and for larger scale projects it can $${Math.floor(Math.random() * 100000000)}.`;
     document.body.appendChild(pProjects);
 });
