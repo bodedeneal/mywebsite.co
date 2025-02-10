@@ -43,6 +43,6 @@ document.addEventListener("DOMContentLoaded", function() {
     document.body.appendChild(h2Working);
 
     var pWorking = document.createElement('p');
-    pWorking.textContent = (`I'm obsessed with coding and trying to monetize it. I am open for hire, you can find me at denealbode@gmail.com. For smaller projects, I only charge $${Math.floor(Math.random() * 100)} and for larger scale projects it can cost $${Math.floor(Math.random() * 100000)}.`);
+    pWorking.textContent = (`I'm obsessed with coding and trying to monetize it. I am open for hire, you can find me at denealbode@gmail.com. For smaller projects, I only charge $${Math.floor(Math.random() * 100)} and for larger scale projects it can cost $${Math.floor(Math.random() * 1000)}.`);
     document.body.appendChild(pWorking);
 });
