@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Apply styles to the body
     document.body.style.backgroundColor = "lightblue"; // Neon black background
-    document.body.style.color = "#39FF14"; // Neon green text
+    document.body.style.color = "#000000"; // Neon green text
     document.body.style.fontFamily = "'Arial', sans-serif"; // Change this to your desired font
     document.body.style.fontWeight = "bold"; // Make the text bold
     document.body.style.textAlign = "center"; // Center the text
@@ -43,6 +43,6 @@ document.addEventListener("DOMContentLoaded", function() {
     document.body.appendChild(h2Working);
 
     var pWorking = document.createElement('p');
-    pWorking.textContent = `I'm obsessed with coding and trying to monetize it. I am open for hire, you can find me at denealbode@gmail.com. For smaller projects, I only charge $${Math.floor(Math.random() * 100)} and for larger scale projects it can cost $${Math.floor(Math.random() * 100000)}.`;
+    pWorking.textContent = (`I'm obsessed with coding and trying to monetize it. I am open for hire, you can find me at denealbode@gmail.com. For smaller projects, I only charge $${Math.floor(Math.random() * 100)} and for larger scale projects it can cost $${Math.floor(Math.random() * 100000)}.`);
     document.body.appendChild(pWorking);
 });
