@@ -45,4 +45,31 @@ document.addEventListener("DOMContentLoaded", function() {
     var pWorking = document.createElement('p');
     pWorking.textContent = (`I'm obsessed with coding and trying to monetize it. I am open for hire, you can find me at denealbode@gmail.com. For smaller projects, I only charge $${Math.floor(Math.random() * 100)} and for larger scale projects it can cost $${Math.floor(Math.random() * 1000)}.`);
     document.body.appendChild(pWorking);
+
+    var container = document.createElement('div');
+    container.style.display = "flex";
+    container.style.justifyContent = "space-between";
+    container.style.margin = "0 10px";
+
+    // Main content area
+    var mainContent = document.createElement('div');
+    mainContent.style.flex = "3";
+    mainContent.style.marginRight = "10px";
+
+    // Move existing content into mainContent div
+    while (document.body.firstChild) {
+        mainContent.appendChild(document.body.firstChild);
+    }
+    container.appendChild(mainContent);
+
+    // Sidebar
+    var sidebar = document.createElement('div');
+    sidebar.style.flex = "1";
+    sidebar.style.borderLeft = "2px solid black"; // Black dividing line
+    sidebar.style.paddingLeft = "10px";
+    sidebar.textContent = "Sidebar content goes here";
+    container.appendChild(sidebar);
+
+    // Append container to body
+    document.body.appendChild(container);
 });
