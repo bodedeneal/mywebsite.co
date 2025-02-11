@@ -4,17 +4,35 @@
     <title>My Website</title>
     <style>
         body {
-            background-color: tan; /* Neon black background */
-            color: #000000; /* Neon green text */
-            font-family: 'Arial', sans-serif; /* Change this to your desired font */
-            font-weight: bold; /* Make the text bold */
-            text-align: center; /* Center the text */
-        }
-        .centered {
-            display: flex;
-            justify-content: center; /* Center the images and video */
-            margin: 10px 0; /* Add some margin between the divs */
-        }
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+    background-color: tan;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+.main-content {
+    flex: 3;
+    margin-right: 10px;
+}
+
+.sidebar {
+    flex: 1;
+    border-left: 2px solid black; /* Black dividing line */
+    padding-left: 10px;
+}
     </style>
 </head>
 <body>
