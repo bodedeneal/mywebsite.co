@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
     document.body.style.fontFamily = "'Arial', sans-serif"; // Change this to your desired font
     document.body.style.fontWeight = "bold"; // Make the text bold
     document.body.style.textAlign = "center"; // Center the text
-    document.body.style.fontSize = "20px";
+    document.body.style.fontSize = "16px";
     
     var h1 = document.createElement('h1');
     h1.textContent = "Welcome To My Haven";
