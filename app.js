@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
     document.body.style.fontSize = "20px";
     
     var h1 = document.createElement('h1');
-    h1.textContent = "Welcome To My Webstie";
+    h1.textContent = "Welcome To My Haven";
     document.body.appendChild(h1);
     
     // Create and append the second div with images
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
     document.body.appendChild(h2About);
 
     var pAbout = document.createElement('p');
-    pAbout.textContent = "I am a YouTuber who does track and CX.";
+    pAbout.textContent = "Welcome to the website that I keep most of my projects and stuff so I you want to see the files and stuff go ahead. i would also like some support if you can got to my youtube account and sub @BodeDeNeal.";
     document.body.appendChild(pAbout);
 
     var h2Working = document.createElement('h2');
