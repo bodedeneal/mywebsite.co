@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
     document.body.style.fontSize = "16px";
     
     var h1 = document.createElement('h1');
-    h1.textContent = "Welcome To My Haven";
+    h1.textContent = "Welcome To My Website";
     document.body.appendChild(h1);
     
     // Create and append the second div with images
