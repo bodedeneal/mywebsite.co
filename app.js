@@ -10,19 +10,6 @@ document.addEventListener("DOMContentLoaded", function() {
     var h1 = document.createElement('h1');
     h1.textContent = "Welcome To My Website";
     document.body.appendChild(h1);
-    
-    // Create and append the second div with images
-    var imageDiv = document.createElement('div');
-    imageDiv.style.display = "flex";
-    imageDiv.style.justifyContent = "center"; // Center the images and video
-    imageDiv.style.margin = "10px 0"; // Add some margin between the divs
-
-    var img1 = document.createElement('img');
-    img1.src = 'IMG_1508.jpeg';
-    img1.width = 320;
-    img1.height = 400;
-    img1.alt = 'Image 1508';
-    imageDiv.appendChild(img1);
 
     document.body.appendChild(imageDiv);
 
@@ -36,14 +23,14 @@ document.addEventListener("DOMContentLoaded", function() {
     document.body.appendChild(h2About);
 
     var pAbout = document.createElement('p');
-    pAbout.textContent = "Welcome to the website that I keep most of my projects and stuff so I you want to see the files and stuff go ahead. i would also like some support if you can got to my youtube account and sub @BodeDeNeal.";
+    pAbout.textContent = "Welcome to the website";
     document.body.appendChild(pAbout);
 
     var h2Working = document.createElement('h2');
-    h2Working.textContent = "What I'm working on";
+    h2Working.textContent = " ";
     document.body.appendChild(h2Working);
 
     var pWorking = document.createElement('p');
-    pWorking.textContent = (`I'm obsessed with coding and trying to monetize it. I am open for hire, you can find me at denealbode@gmail.com. For smaller projects, I only charge $${Math.floor(Math.random() * 100)} and for larger scale projects it can cost $${Math.floor(Math.random() * 1000)}.`);
+    pWorking.textContent = (` `);
     document.body.appendChild(pWorking);
 });
