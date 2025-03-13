@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", function() {
-    // Apply styles to the body
     document.body.style.backgroundColor = "tan"; // Neon black background
     document.body.style.color = "black"; // Neon green text
     document.body.style.fontFamily = "'Arial', sans-serif"; // Change this to your desired font
@@ -8,18 +7,18 @@ document.addEventListener("DOMContentLoaded", function() {
     document.body.style.fontSize = "16px";
     
     var h1 = document.createElement('h1');
-    h1.textContent = "Welcome To My Website";
+    h1.textContent = " ";
     document.body.appendChild(h1);
 
     document.body.appendChild(imageDiv);
 
     // Append the rest of the content
     var h2 = document.createElement('h2');
-    h2.textContent = "Hey, I'm Bode DeNeal";
+    h2.textContent = " ";
     document.body.appendChild(h2);
 
     var h2About = document.createElement('h2');
-    h2About.textContent = "About me";
+    h2About.textContent = " ";
     document.body.appendChild(h2About);
 
     var pAbout = document.createElement('p');
@@ -34,7 +33,6 @@ document.addEventListener("DOMContentLoaded", function() {
     pWorking.textContent = (` `);
     document.body.appendChild(pWorking);
 
-    document.addEventListener("DOMContentLoaded", function() {
     document.body.style.backgroundImage = "url('background-blur-clean-531880.jpg')";
     document.body.style.backgroundSize = "cover"; // Optional: to cover the entire screen
 });
