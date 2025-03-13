@@ -33,4 +33,9 @@ document.addEventListener("DOMContentLoaded", function() {
     var pWorking = document.createElement('p');
     pWorking.textContent = (` `);
     document.body.appendChild(pWorking);
+
+    document.addEventListener("DOMContentLoaded", function() {
+    document.body.style.backgroundImage = "url('background-blur-clean-531880.jpg')";
+    document.body.style.backgroundSize = "cover"; // Optional: to cover the entire screen
+    document.body.style.backgroundRepeat = "no-repeat"; // Optional: to prevent repeating the image
 });
