@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
     document.body.appendChild(h2About);
 
     var pAbout = document.createElement('p');
-    pAbout.textContent = "Welcome to the website";
+    pAbout.textContent = " ";
     document.body.appendChild(pAbout);
 
     var h2Working = document.createElement('h2');
