@@ -3,7 +3,6 @@ document.addEventListener("DOMContentLoaded", function() {
     document.body.style.color = "black"; // Neon green text
     document.body.style.fontFamily = "'Arial', sans-serif"; // Change this to your desired font
     document.body.style.fontWeight = "bold"; // Make the text bold
-    document.body.style.textAlign = "center"; // Center the text
     document.body.style.fontSize = "16px";
     document.body.style.backgroundImage = "url('R.jpeg')";
     document.body.style.backgroundSize = "cover"; // Optional: to cover the entire screen
