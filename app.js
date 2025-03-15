@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
     document.body.style.fontWeight = "bold"; // Make the text bold
     document.body.style.textAlign = "center"; // Center the text
     document.body.style.fontSize = "16px";
-    document.body.style.backgroundImage = "url('background-blur-clean-531880.jpg')";
+    document.body.style.backgroundImage = "url('OIP (3).jpeg')";
     document.body.style.backgroundSize = "cover"; // Optional: to cover the entire screen
     
     var h1 = document.createElement('h1');
