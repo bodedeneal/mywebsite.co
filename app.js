@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     document.body.style.fontFamily = "'Arial', sans-serif"; // Change this to your desired font
     document.body.style.fontWeight = "bold"; // Make the text bold
     document.body.style.fontSize = "16px";
-    document.body.style.backgroundImage = "url('R.jpeg')";
+    document.body.style.backgroundImage = "url('35547429001_3746428078001_video-still-for-video-3744666343001.webp')";
     document.body.style.backgroundSize = "cover"; // Optional: to cover the entire screen
     
     var h1 = document.createElement('h1');
