@@ -1,4 +1,4 @@
-# Mywebsite.com
+# Mywebsite.co
 A great way to learn code and make a website for your friends.
 
 ## Bug Fixes 🪲
