@@ -8,3 +8,7 @@ Shellshockers also doesn't work.
 
 ## Developers
 "Never get bored at school"- Bode username bodedeneal
+
+## Aditions
+We have added more games through recent updates and made it a more usable interface.
+AI was recently added.
