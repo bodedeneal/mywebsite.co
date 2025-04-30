@@ -1,5 +1,5 @@
 # Mywebsite.co
-A great way to learn code and make a website for your friends.
+A great website for you and your friends to play games at school. It's also an excellent way to learn coding and web development while building a fun and interactive platform. Explore features, experiment with design, and create something truly unique for you and your friends to enjoy!
 
 ## Bug Fixes 🪲
 Super Fowlest doesn't work during school hours.\
