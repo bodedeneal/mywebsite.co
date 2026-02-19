@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", function() {
     document.body.style.backgroundColor = "#000000"; // Neon black background
-    document.body.style.color = "black"; // Neon green text
-    document.body.style.fontFamily = "'Arial', sans-serif"; // Change this to your desired font
+    document.body.style.color = "red"; // Neon green text
+    document.body.style.fontFamily = "'Arial', times-new-roman"; // Change this to your desired font
     document.body.style.fontWeight = "bold"; // Make the text bold
-    document.body.style.fontSize = "16px";
+    document.body.style.fontSize = "20px";
     document.body.style.backgroundImage = "url('gray-gradient-background.jpg')";
     document.body.style.backgroundSize = "cover"; // Optional: to cover the entire screen
     
